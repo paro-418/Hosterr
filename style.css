@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .button{
+       @apply bg-[#2980d6] text-white py-3 mt-3 rounded-[5px]
+    }
+    .hide{
+        @apply opacity-0 pointer-events-none invisible
+    }
+    .show{
+        @apply opacity-100 pointer-events-auto visible border-2 border-gray-500
+    }
+}
