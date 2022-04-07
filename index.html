@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Hosterr.com</title>
   </head>
-  <body class="p-5 bg-[#faf3e6] h-[100vh]">
+  <body class="p-5 bg-[#faf3e6] h-[100vh] md:p-10 md:h-[120vh] ">
     <header>
       <nav class="flex justify-between relative">
         <div class="flex items-center">
@@ -32,7 +32,7 @@
           id="hamburger"
         />
         <div
-          class="bg-[#faf3e6] z-10 menu absolute -right-0 top-8 w-2/4 p-4 hide"
+          class="bg-[#faf3e6] z-10 menu absolute -right-0 top-8 w-2/4 p-4 md:p-6 hide"
         >
           <div class="options">
             <ul>
@@ -50,49 +50,49 @@
       </nav>
     </header>
 
-    <main class=" flex flex-col h-[100%]">
+    <main class=" flex flex-col h-[100%] md:h-[90%]">
       <section class="h-2/4  flex justify-center items-center">
         <img
           src="Assets/Blue-Shape.svg"
           alt="decoration"
-          class="absolute w-[50%] -rotate-45"
+          class="absolute w-[50%] -rotate-45  md:w-[35%]"
         />
         <img
           src="Assets/Pink-Shape.svg"
           alt="decoration"
-          class="absolute w-[50%] -rotate-[30deg]"
+          class="absolute w-[50%] -rotate-[30deg]  md:w-[35%]"
         />
         <img
           src="Assets/Purple-Shape.svg"
           alt="decoration"
-          class="absolute w-[50%] -rotate-[15deg]"
+          class="absolute w-[50%] -rotate-[15deg]  md:w-[35%]"
         />
         <img
           src="Assets/Hero-Image.png"
           alt="model image"
-          class="absolute w-[50%]"
+          class="absolute w-[50%]  md:w-[35%]"
         />
       </section>
-      <section class="paragraph">
-        <h1 class="font-playfair text-[2.7rem] leading-[3.7rem] font-semibold">
+      <section class="paragraph md:mt-4">
+        <h1 class="font-playfair text-[2.7rem] leading-[3.7rem] font-semibold md:font-bold">
           Host your website in less than 5 minutes.
         </h1>
-        <p class="mt-3 text-gray-500">
+        <p class="mt-3 text-gray-500 md:text-gray-600">
           With Hosterr, get your website up and running in no less than 5
           minutes with the most competitive pricing packages available online.
         </p>
-        <div class="email flex flex-col mt-3">
+        <div class="email flex flex-col mt-3 md:flex-row md:justify-between md:items-center md:w-[70%] md:gap-x-4 md:mt-4">
           <input
             type="email"
             name="email"
             placeholder="Enter e-mail address"
             id=""
-            class="py-3 pl-12"
+            class="py-3 pl-8 md:basis-4/6"
           />
-          <button class="button">Join Waitlist</button>
+          <button class="button md:mt-0 md:basis-[35%]">Join Waitlist</button>
         </div>
 
-        <p class="flex text-gray-500 mt-2">
+        <p class="flex text-gray-500 mt-2 md:mt-4">
           <img
             src="Assets/Checkmark.svg"
             alt="check mark"
@@ -101,14 +101,14 @@
         </p>
       </section>
     </main>
-    <section class="socials">
-      <ul class="flex justify-between w-2/3 text-gray-500 my-8">
-        <li>Facebook</li>
-        <li>Instagram</li>
-        <li>Twitter</li>
+    <section class="socials md:flex md:justify-between md:items-center">
+      <ul class="flex justify-between w-2/3 text-gray-500 my-8 md:basis-2/5 md:m-0">
+        <li class="cursor-pointer">Facebook</li>
+        <li class="cursor-pointer">Instagram</li>
+        <li class="cursor-pointer">Twitter</li>
       </ul>
 
-      <div class="help mb-4 flex">
+      <div class="help mb-4 flex md:basis-2/4 md:justify-center md:items-center md:m-0">
         <img src="Assets/Help-Avatar.svg" alt="assistant image" class="mr-3" />
         <div>
           <p class="font-playfair">Have any question?</p>
